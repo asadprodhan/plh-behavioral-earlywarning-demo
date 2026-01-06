@@ -280,4 +280,6 @@ Figure 3: Rumination vs Activity.
 
 > “This looks like temporary stress, not illness.”
 
+## **Conclusion**
 
+This pilot study demonstrates how vendor-agnostic access to dairy sensor data can enable interpretable, animal-centric early-warning insights that extend beyond predefined commercial dashboard views. By integrating herd-level visual summaries, individual cow time-series trends, and multi-signal behavioural space representations, the workflow supports earlier detection of deviations from normal behaviour and more informed decision-making. Although based on synthetic data, the examples illustrate how cloud-hosted sensor streams can be repurposed into a flexible analytical framework suitable for hypothesis-driven investigation, teaching, and collaborative research once real data access is available.

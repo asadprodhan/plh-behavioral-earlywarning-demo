@@ -22,6 +22,15 @@ All data in this repository are synthetic, making it safe to share.
 
 > This repo is a **pilot demo** showing how common dairy sensor signals (rumination, activity, SCC, milk yield) can be transformed into **interpretable early-warning visualisations**.
 
+
+## **Example 1 — Herd-Level Rumination Heatmap (Early-Warning Overview)**
+
+**Objective**
+
+- To provide a single, herd-level view of rumination behaviour
+- To enable rapid identification of individual cows deviating from their own normal patterns
+- To use individual cow-level threshold, rather than relying on fixed herd-wide thresholds or one-cow-at-a-time dashboards
+
 ---
 
 ## What’s inside

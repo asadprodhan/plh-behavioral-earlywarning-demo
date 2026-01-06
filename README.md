@@ -196,19 +196,8 @@ One-day drops that recover immediately can be safely deprioritised.
 - To illustrate how mastitis-associated days occupy different regions of behaviour space compared to normal, healthy days
 
 
-<br />
+<br /> <p align="center"> <img src="https://github.com/asadprodhan/plh-behavioral-earlywarning-demo/blob/main/Rumination_VS_Activity.png" width="100%" > </p> <p> <strong>Figure 3. Behaviour-space representation of daily cow states based on rumination and activity.</strong> Scatter plot showing the joint distribution of rumination time (minutes per day) and activity level across all cows and days. Each point represents a single cow on a single day. The horizontal axis corresponds to daily rumination time and the vertical axis corresponds to activity level. The dense central cluster reflects the predominant healthy behavioural state of the herd, while points located outside this core region indicate days on which cows exhibited altered behavioural patterns. This representation highlights how combining multiple behavioural signals provides contextual information beyond single-metric views, enabling interpretation of distinct behavioural states such as normal digestion and movement, reduced rumination with reduced activity (high-risk or sickness-associated behaviour), reduced rumination with elevated activity (stress or discomfort-associated behaviour), and high rumination with low activity (calm, resting behaviour). This behaviour-space view supports intuitive assessment of behavioural shifts and complements time-series and herd-level summaries in early-warning analysis. </p> <br />
 
-
-<p align="center">
-  <img 
-    src="https://github.com/asadprodhan/plh-behavioral-earlywarning-demo/blob/main/Rumination_VS_Activity.png"
- align="center" width=100% height=100% >   
-</p>
-<p align = center>
-Figure 3: Rumination vs Activity.
-</p>
-
-<br />
 
 **What the graph shows**
 

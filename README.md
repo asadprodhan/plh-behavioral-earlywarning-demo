@@ -208,33 +208,68 @@ One-day drops that recover immediately can be safely deprioritised.
 
 ---
 
-## What’s inside
+## **Example 3 — Rumination vs Activity Behaviour**
 
-### 1) Herd rumination heatmap (cow × day)
-- Grey = within each cow’s healthy range  
-- Red = below healthy range (magnitude encoded)  
-- Blue = above healthy range (magnitude encoded)
+**Objective**
 
-### 2) Single-cow trend view (example: Cow 13)
-- Rumination time series with per-cow thresholds
-- Points annotated as Healthy/Flagged
+- To place rumination in behavioural context by combining it with activity, allowing identification of distinct behavioural states rather than interpreting a single metric in isolation
 
-### 3) Rumination vs Activity scatter (context view)
-- Used to understand behavioural state changes and how mastitis labels relate to behaviour-space
+- To illustrate how mastitis-associated days occupy different regions of behaviour space compared to normal, healthy days
 
 
 
+**What the graph shows**
 
----
+- Each point represents a single cow on a single day
 
-## Quickstart
+- The x-axis shows rumination time (minutes/day)
 
-### Option A — Run the notebook (recommended)
-Open:
-`notebooks/dairy_ml_trends_notebook_all_cows_annotated.ipynb`
+- The y-axis shows activity level
 
-### Option B — Create an environment
-```bash
-conda env create -f environment.yml
-conda activate plh-demo
-jupyter lab
+- The dense central cloud represents normal, healthy behavioural states
+
+- Mastitis-labelled days (when present) tend to appear outside the core healthy region, most commonly at lower rumination values
+
+**This plot highlights:**
+
+- Behavioural states rather than absolute thresholds
+
+- How multiple signals together provide clearer insight than either signal alone
+
+- Why the same rumination value can mean different things depending on activity level
+
+- Key behavioural interpretations visible in this space:
+
+- Normal digestion with normal movement (healthy baseline)
+
+- Reduced rumination with reduced activity (high-risk state)
+
+- Reduced rumination with elevated activity (stress or discomfort)
+
+- High rumination with low activity (calm, resting, healthy state)
+
+**What this means for farmers**
+
+- Farmers can move from alerts to understanding
+
+**Instead of seeing:**
+
+> “Rumination low”
+
+**They can see:**
+
+> “Rumination dropped and activity changed — this is not normal behaviour for this cow.”
+
+**This helps farmers:**
+
+- Understand why a cow was flagged, not just that it was flagged
+
+- Distinguish between sickness, behaviour stress, discomfort, normal resting behaviour
+
+- Build confidence in data-driven alerts by seeing the behavioural context
+
+**In practical terms, this supports decisions like:**
+
+> “This cow is quiet and not chewing properly — I should check her.”
+
+> “This looks like temporary stress, not illness.”

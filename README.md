@@ -241,7 +241,6 @@ Figure 3: Rumination vs Activity.
 
 - The dense central cloud represents normal, healthy behavioural states
 
-- Mastitis-labelled days (when present) tend to appear outside the core healthy region, most commonly at lower rumination values
 
 **This plot highlights:**
 
@@ -251,7 +250,7 @@ Figure 3: Rumination vs Activity.
 
 - Why the same rumination value can mean different things depending on activity level
 
-- Key behavioural interpretations visible in this space:
+**Key behavioural interpretations visible in this space:**
 
 - Normal digestion with normal movement (healthy baseline)
 
@@ -265,13 +264,7 @@ Figure 3: Rumination vs Activity.
 
 - Farmers can move from alerts to understanding
 
-**Instead of seeing:**
-
-> “Rumination low”
-
-**They can see:**
-
-> “Rumination dropped and activity changed — this is not normal behaviour for this cow.”
+- Instead of seeing "rumination low”, they can see "rumination dropped and activity changed — this is not normal behaviour for this cow.”
 
 **This helps farmers:**
 
@@ -286,3 +279,5 @@ Figure 3: Rumination vs Activity.
 > “This cow is quiet and not chewing properly — I should check her.”
 
 > “This looks like temporary stress, not illness.”
+
+

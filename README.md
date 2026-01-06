@@ -1,4 +1,4 @@
-<h1 align="center">A Precision Livestock Health Framework for Herd Health Monitoring from Cloud-Integrated Wearable Sensor Data</h1>
+<h1 align="center">A Precision Livestock Health Framework for Herd Health Monitoring: From Cloud-Integrated Wearable Sensor Data to Early-Warning Analytics</h1>
 
 
 <h3 align="center">Asad Prodhan<sup>*</sup></h3>

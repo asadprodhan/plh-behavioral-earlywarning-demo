@@ -125,19 +125,8 @@ All data in this repository are synthetic, making it safe to share.
 
 - This view complements the herd-level heatmap by enabling focused inspection of individual animals flagged for attention
 
-<br />
 
-
-<p align="center">
-  <img 
-    src="https://github.com/asadprodhan/plh-behavioral-earlywarning-demo/blob/main/Rumination_Trend_CowNo13.png"
- align="center" width=100% height=100% >   
-</p>
-<p align = center>
-Figure 2: Rumination Trend of Cow No 13.
-</p>
-
-<br />
+<br /> <p align="center"> <img src="https://github.com/asadprodhan/plh-behavioral-earlywarning-demo/blob/main/Rumination_Trend_CowNo13.png" width="100%" > </p> <p> <strong>Figure 2. Single-cow rumination time-series showing deviations from an individual healthy behavioural baseline (Cow 13).</strong> Line plot showing daily rumination time (minutes per day) for Cow 13 across the study period. The solid line represents observed daily rumination values. Dashed horizontal lines indicate the cow-specific healthy rumination range derived from this cow’s historical behaviour, defined as the median daily rumination ± one standard deviation with biologically plausible bounds applied. Triangular markers denote days on which rumination values fall outside the healthy range, highlighting both negative deviations (below-range values) and strong positive deviations (above-range values). This representation enables visual differentiation between normal day-to-day variability and transient or sustained departures from baseline rumination behaviour, supporting individual-animal monitoring and early-warning assessment. </p> <br />
 
 
 **What the graph shows**

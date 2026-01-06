@@ -44,6 +44,7 @@ All data in this repository are synthetic, making it safe to share.
 
 > This repo is a **pilot demo** showing how common dairy sensor signals (rumination, activity, SCC, milk yield) can be transformed into **interpretable early-warning visualisations**.
 
+---
 
 ## **Example 1 — Herd-Level Rumination Heatmap (Early-Warning Overview)**
 
@@ -52,6 +53,79 @@ All data in this repository are synthetic, making it safe to share.
 - To provide a single, herd-level view of rumination behaviour
 - To enable rapid identification of individual cows deviating from their own normal patterns
 - To use individual cow-level threshold, rather than relying on fixed herd-wide thresholds or one-cow-at-a-time dashboards
+
+
+<br />
+
+
+<p align="center">
+  <img 
+    src="https://github.com/asadprodhan/plh-behavioral-earlywarning-demo/blob/main/Rumination_HeatMap.png"
+ align="center" width=100% height=100% >   
+</p>
+<p align = center>
+Figure 1: Rumination HeatMap.
+</p>
+
+<br />
+
+**What the graph shows**
+
+- Rows represent individual cows
+
+- Columns represent days
+
+- Each cell shows how much that cow’s rumination deviates from its own healthy baseline
+
+**Colour meaning**
+
+- Grey → rumination within that cow’s healthy (normal) range
+
+- Red → rumination below the healthy range; darker red = larger drop from normal
+
+- Blue → rumination above the healthy range; darker blue = stronger positive deviation
+
+**Importantly**
+
+- “Healthy” is defined per cow, based on that cow’s own historical behaviour
+
+- The heatmap shows relative change, not absolute rumination minutes
+
+**This makes patterns immediately visible, such as:**
+
+- Single-day dips versus multi-day sustained reductions
+
+- Cows that repeatedly show instability
+
+- Whether changes are isolated to individuals or appear herd-wide
+
+**What this means for farmers**
+
+- Farmers can scan the entire herd in seconds, instead of clicking through individual cow dashboards.
+
+- Cows needing attention stand out visually, without interpreting numbers or thresholds.
+
+- Sustained red patterns highlight cows that should be:
+
+  - checked
+
+  - monitored more closely
+
+  - prioritised for intervention
+
+**Equally important:**
+
+- Large grey regions provide reassurance that most cows are behaving normally, reducing unnecessary checks.
+
+- One-day red events can be distinguished from persistent problems, helping avoid over-reaction.
+
+
+**In practical terms, this supports everyday questions like:**
+
+> “Which cows should I look at today?”
+>“Is this a temporary change, or something that’s persisting?”
+
+
 
 ---
 
@@ -68,6 +142,9 @@ All data in this repository are synthetic, making it safe to share.
 
 ### 3) Rumination vs Activity scatter (context view)
 - Used to understand behavioural state changes and how mastitis labels relate to behaviour-space
+
+
+
 
 ---
 

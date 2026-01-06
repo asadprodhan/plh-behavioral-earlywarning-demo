@@ -125,7 +125,71 @@ Figure 1: Rumination HeatMap.
 > “Which cows should I look at today?”
 >“Is this a temporary change, or something that’s persisting?”
 
+---
 
+## **Example 2 — Single-Cow Rumination Trend (Cow 13)**
+
+**Objective**
+
+- To show how rumination for a single cow evolves over time relative to that cow’s own healthy baseline, allowing differentiation between normal day-to-day variability and meaningful behavioural change
+
+- This view complements the herd-level heatmap by enabling focused inspection of individual animals flagged for attention
+
+**What the graph shows**
+
+- The blue line represents daily rumination time (minutes/day) for Cow 13
+
+- The dashed horizontal lines define Cow 13’s healthy rumination range, calculated from its own historical behaviour
+
+**Triangle markers highlight days that fall:**
+
+- Below the healthy range (flagged low rumination)
+
+- Above the healthy range (strong positive deviation)
+
+**Key patterns visible in this plot:**
+
+- Short, isolated dips followed by rapid recovery
+
+- Periods of stable rumination within the healthy range
+
+- Occasional deeper drops that cross the lower threshold
+
+**This allows visual distinction between:**
+
+- Transient noise (one-day deviations)
+
+- Persistent or repeated deviations that may warrant closer attention
+
+**What this means for farmers**
+
+**Farmers can quickly answer:**
+
+> “Is this cow just having a bad day, or is something changing?”
+
+One-day drops that recover immediately can be safely deprioritised.
+
+**Repeated or sustained drops below the healthy range suggest:**
+
+- digestive stress
+
+- early illness
+
+- environmental or management issues
+
+**This helps farmers:**
+
+- Avoid unnecessary checks for normal variation
+
+- Focus attention on cows showing patterns, not just alerts
+
+- Make better-timed decisions such as monitoring, checking, or intervening
+
+**In practice, this supports decisions like:**
+
+> “I’ll keep an eye on this cow today.”
+
+> “This drop has happened several times — I should check her.”
 
 ---
 

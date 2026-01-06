@@ -217,6 +217,19 @@ One-day drops that recover immediately can be safely deprioritised.
 - To illustrate how mastitis-associated days occupy different regions of behaviour space compared to normal, healthy days
 
 
+<br />
+
+
+<p align="center">
+  <img 
+    src="https://github.com/asadprodhan/plh-behavioral-earlywarning-demo/blob/main/Rumination_VS_Activity.png"
+ align="center" width=100% height=100% >   
+</p>
+<p align = center>
+Figure 3: Rumination vs Activity.
+</p>
+
+<br />
 
 **What the graph shows**
 
